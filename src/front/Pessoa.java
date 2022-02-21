@@ -1,6 +1,6 @@
-package appimc;
+package front;
 
-public class Pessoa {
+class Pessoa {
     public float altura;
     public float peso;
     public String nome;
@@ -23,4 +23,5 @@ public class Pessoa {
             return "obesidade grave";
         }
     }
+
 }
